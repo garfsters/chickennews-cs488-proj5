@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/project5styles.css" />
+        <title>Welcome to Chicken News</title>
+        <link rel="icon" type="image/png" href="/static/chicken.png">
+    </head>
+    <body>
+        <h1>Chicken News</h1>
+        <h2>The number one trusted news source in the Minecraft Multiverse. </h2>
+        <h2>Only verified news anchors have access to posting on this news site.</h2>
+        <h3>Upload a blog to update the civilians.</h3>
+        <div class="centered-img">
+        <img src="/static/chicken.png" alt="Minecraft Chicken" class="upload-chicken"><br/>
+
+        <br/>
+        <p class="user-id">Logged in as: {{ email }}</p>
+
+        Blog Title <br/>
+        <input type="text" id="title" /><br/>
+        Description <br/>
+        <textarea id="description" rows="6" cols="60"></textarea><br/>
+
+        <button onclick="uploadfile();">Upload!</button>
+
+        <div class="button-row">
+        <button onclick="homepage();">Home</button>
+        <button onclick="logout();">Logout</button>
+        </div>
+        <div id="divResults"></div>
+
+
+
+        <script src="/static/project5.js"></script>
+        <script> list_myblogs(); </script>
+
+
+    </body>
+</html>
