@@ -25,4 +25,4 @@ Login Page:
 Editor Page:
 - only accessible once logged in
 - has Blog Title and Description area
-- Click post when you're all done!
+- Click 'Upload!' when you're all done!
